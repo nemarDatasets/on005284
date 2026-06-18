@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "26 By Biosemi",
-  "description": "This EEG dataset comprises recordings from 26 participants during a pain perception study using laser stimulation. Participants received fixed-intensity nociceptive stimuli at regular intervals and provided subjective pain ratings on a 0-10 scale. The dataset captures neural responses to pain and associated behavioral ratings, providing a resource for investigating the electrophysiological correlates of pain perception and subjective pain assessment.",
-  "methods_description": "Participants underwent laser stimulation at individually calibrated intensities (targeting a pain rating of 7/10) delivered approximately every 20 seconds for 16 trials. EEG was recorded using a BioSemi system (26 channels) while participants maintained fixation on a cross and provided pain ratings (0-10 scale) via computer mouse following each stimulus. Inter-stimulus intervals and rating periods were 20 seconds and 3-5 seconds, respectively.",
+  "description": "This EEG dataset comprises recordings from 26 participants who received laser stimulation at fixed intensity while providing pain ratings on a 0-10 scale. The study investigates the neural correlates of pain perception and subjective pain ratings in response to nociceptive stimuli, with potential applications to understanding pain modulation mechanisms.",
+  "methods_description": "Participants underwent laser stimulation at individually calibrated fixed intensity, with stimuli presented approximately every 20 seconds for 16 trials. EEG was recorded using a BioSemi system during the task. Following each laser stimulus, participants provided pain intensity ratings (0-10 scale) via computer mouse within a 3-5 second window, with inter-trial intervals of 1-3 seconds.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -33,7 +33,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
     },
     {
-      "term": "subjective pain rating"
+      "term": "pain rating"
     },
     {
       "term": "BioSemi"
